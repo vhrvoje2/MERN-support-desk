@@ -6,7 +6,7 @@ import { login, reset } from "../features/auth/authSlice"
 import { useNavigate } from "react-router-dom"
 import Spinner from "../components/Spinner"
 
-function Login() {
+const Login = () => {
     const [formData, setFormData] = useState({
         email: "",
         password: "",
